@@ -1,7 +1,7 @@
 {
     "name": "@monajs/tiny-compiler",
     "version": "0.0.1",
-    "description": "Mona系列 - 迷你编译器",
+    "description": "Just a toy!!!",
     "main": "src/index.js",
     "scripts": {
         "test": "mocha",

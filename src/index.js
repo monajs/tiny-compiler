@@ -1,5 +1,7 @@
-function index () {
-	console.log(123)
-}
+const tokenizer = require('./core/tokenizer')
+const parser = require('./core/parser')
 
-modules.exports = index
+module.exports = {
+	tokenizer,
+	parser
+}

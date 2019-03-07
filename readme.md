@@ -1,4 +1,1 @@
-# Mona系列 - 迷你编译
-
-## 联系我
-> 微信：599321378
+Just a toy of compiler !!!
