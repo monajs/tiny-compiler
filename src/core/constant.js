@@ -2,5 +2,7 @@ module.exports = {
 	Program: 'Program',
 	NumberLiteral: 'NumberLiteral',
 	StringLiteral: 'StringLiteral',
-	CallExpression: 'CallExpression'
+	CallExpression: 'CallExpression',
+	Identifier: 'Identifier',
+	ExpressionStatement: 'ExpressionStatement'
 }

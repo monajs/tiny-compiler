@@ -3,6 +3,9 @@
  * @param ast
  * @param visitor
  */
+
+const { Program, NumberLiteral, StringLiteral, CallExpression } = require('./constant')
+
 function traverser (ast, visitor) {
 
 	function traverseArray (array, parent) {
@@ -19,16 +22,16 @@ function traverser (ast, visitor) {
 		}
 
 		switch (node.type) {
-			case 'Program':
+			case Program:
 				traverseArray(node.body, node)
 				break
 
-			case 'CallExpression':
+			case CallExpression:
 				traverseArray(node.params, node)
 				break
 
-			case 'StringLiteral':
-			case 'NumberLiteral':
+			case StringLiteral:
+			case NumberLiteral:
 				break
 
 			default:
