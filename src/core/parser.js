@@ -46,6 +46,8 @@ function parser (tokens) {
 			current++
 			return node
 		}
+
+		throw new TypeError(`未识别的词法单元：${token}`)
 	}
 
 	let ast = {
